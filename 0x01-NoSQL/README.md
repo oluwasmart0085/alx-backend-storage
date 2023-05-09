@@ -6,7 +6,7 @@
 
 -   [NoSQL Databases Explained]
 -   [What is NoSQL ?]
--   [Building Your First Application: An Introduction to MongoDB](https://intranet.hbtn.io/rltoken/KdQw7iu6r0ZxGq7xjg8XwA "Building Your First Application: An Introduction to MongoDB")
+-   [Building Your First Application: An Introduction to MongoDB]
 -   [MongoDB Tutorial 2 : Insert, Update, Remove, Query](https://intranet.hbtn.io/rltoken/DARNLVL94BA2VJq-8SOcjw "MongoDB Tutorial 2 : Insert, Update, Remove, Query")
 -   [Aggregation](https://intranet.hbtn.io/rltoken/YPBgakK9dBDy7UvOajMuIg "Aggregation")
 -   [Introduction to MongoDB and Python](https://intranet.hbtn.io/rltoken/oGMMglCCSi0a3_wZCJcAog "Introduction to MongoDB and Python")
