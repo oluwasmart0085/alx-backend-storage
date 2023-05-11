@@ -55,20 +55,20 @@ class Cache:
         self._redis.mset({key: data})
         return key
 
-    def get(self,
-            key: str,
-            fn: Optional[Callable] = None) -> UnionOfTypes:
+    def get(self, key: str, fn: Optional[Callable] = None) -> UnionOfTypes:
         """
         Retrieves data stored at a key
         converts the data back to the desired format
         """
         data = self._redis.get(key)
-        return fn(data) if fn else data
+        return fn(data) if fn is not None else data
 
-    def get_str(self, data: str) -> str:
+
+    def get_str(self, key: str) -> str:
         """ get a string """
         return self.get(key, str)
 
-    def get_int(self, data: str) -> int:
+    def get_int(self, key: str) -> int:
         """ get an int """
         return self.get(key, int)
+
